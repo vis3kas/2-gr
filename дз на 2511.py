@@ -1,8 +1,8 @@
-'''#11
-#def positive(x):
-#   return x > 0
+#11
+def positive(x):
+   return x > 0
 
-#numbers = input().split()
+numbers = input().split()
 numbers = list(map(int, numbers))
 result = list(filter(positive, numbers))
 print(result)
@@ -171,7 +171,7 @@ out1 = list(map(square, odd_nums))
 print("filter+map:", out1)
 #2 spiski
 out2 = [int(i) * int(i) for i in s if int(i) % 2 != 0]
-print("spiski:", out2)'''
+print("spiski:", out2)
 
 #26
 
